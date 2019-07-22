@@ -1,9 +1,12 @@
 import React from 'react'
+import { ListOfCategories } from './components/ListOfCategories'
+import { GlobalStyles } from './GlobalStyles'
 
 function App (props) {
   return (
     <React.Fragment>
-      <h1>Hola Petgram</h1>
+      <GlobalStyles />
+      <ListOfCategories />
     </React.Fragment>
   )
 }
