@@ -1,6 +1,8 @@
 import styled from 'styled-components'
+import { fadeIn } from '../styles/animation'
 
 export const ImageWrapper = styled.figure`
+  ${fadeIn()}
   border-radius:10px;
   display:block;
   height:0;
