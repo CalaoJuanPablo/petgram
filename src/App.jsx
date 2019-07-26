@@ -11,7 +11,6 @@ function App (props) {
       <Logo />
       <GlobalStyles />
       <ListOfCategories />
-      <PhotoCard />
       <ListOfPhotoCards />
     </React.Fragment>
   )
