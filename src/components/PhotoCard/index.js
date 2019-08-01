@@ -3,7 +3,7 @@ import { MdFavoriteBorder, MdFavorite } from 'react-icons/md'
 import { useLocalStorage, useNearScreen } from '../../hooks'
 import { Article, ImageWrapper, Image, Button } from './styles'
 
-const DEFAULT_IMAGE = 'https://res.cloudinary.com/midudev/image/upload/w_300/q_80/v1560262103/dogs.png'
+const DEFAULT_IMAGE = 'https://www.polytec.com.au/img/products/960-960/oyster-grey.jpg'
 
 export const PhotoCard = ({ id, likes = 0, src = DEFAULT_IMAGE }) => {
   const key = `likes_${id}`
